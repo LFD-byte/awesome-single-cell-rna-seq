@@ -13,7 +13,7 @@
 | Title                                                        | Team/Main author     | Venue and year | Github                                                | Key Description |
 | ------------------------------------------------------------ | -------------------- | -------------- | ----------------------------------------------------- | --------------- |
 | [AutoImpute: Autoencoder based imputation of single-cell RNA-seq data](https://www.nature.com/articles/s41598-018-34688-x) (AutoImpute) `Nature` | Divyanshu Talwar     | 2018           | [url](https://github.com/divyanshu-talwar/AutoImpute) |                 |
-| [Single-cell RNA-seq denoising using a deep count autoencoder](https://www.nature.com/articles/s41467-018-07931-2) (DCA) `Nature` |                      | 2019           | [url](https://github.com/theislab/dca)                |                 |
+| [Single-cell RNA-seq denoising using a deep count autoencoder](https://www.nature.com/articles/s41467-018-07931-2) (DCA) `Nature` | Gökcen Eraslan       | 2019           | [url](https://github.com/theislab/dca)                |                 |
 | [DeepImpute: an accurate, fast, and scalable deep neural network method to impute single-cell RNA-seq data](https://link.springer.com/article/10.1186/s13059-019-1837-6) (DeepImpute) `Genome biology` | Cédric Arisdakessian | 2019           | [url](https://github.com/lanagarmire/DeepImpute)      |                 |
 | [deepMc: Deep Matrix Completion for Imputation of Single-Cell RNA-seq Data](https://www.liebertpub.com/doi/abs/10.1089/cmb.2019.0278) (Deepmc) `Journal of Computational Biology` | Aanchal Mongia       | 2019           | none                                                  |                 |
 | [scIGANs: single-cell RNA-seq imputation using generative adversarial networks](https://academic.oup.com/nar/article/48/15/e85/5862684) (scIGANs) `Nucleic acids research` | Yungang Xu           | 2020           | [url](https://github.com/xuyungang/scIGANs)           |                 |
@@ -46,4 +46,27 @@
 | [Toward Convex Manifolds: A Geometric Perspective for Deep Graph Clustering of Single-cell RNA-seq Data](https://www.ijcai.org/proceedings/2023/0540.pdf) (scTCM) <code class="language-plaintext highlighter-rouge">IJCAI</code> | Nairouz Mrabah   | 2023           | [url](https://github.com/MMAMAR/scTConvexMan)  |                 |
 | [xTrimoGene: An Efficient and Scalable Representation Learner for Single-Cell RNA-Seq Data](https://papers.nips.cc/paper_files/paper/2023/hash/db68f1c25678f72561ab7c97ce15d912-Abstract-Conference.html) (xTrimoGene) <code class="language-plaintext highlighter-rouge">NeurIPS</code> | Jing Gong        | 2023           | none                                           |                 |
 | [Unsupervised Gene-Cell Collective Representation Learning with Optimal Transport](https://ojs.aaai.org/index.php/AAAI/article/view/27789) (scGCOT) <code class="language-plaintext highlighter-rouge">AAAI</code> | Jixiang Yu       | 2024           | none                                           |                 |
+
+## Dataset
+
+你可以从我整理的[百度云](https://pan.baidu.com/s/1igV0O7ZVXlHrIxAncxRg-Q?pwd=5iwm)下载 scRNA-seq 数据集。
+
+| Dataset        | Cell  | Gene  | Class | Class      | Reference                                                    |
+| -------------- | ----- | ----- | ----- | ---------- | ------------------------------------------------------------ |
+| Yan            | 90    | 20214 | 6     | Tang       | [Yan et al. 2013](https://www.nature.com/articles/nsmb.2660/1000) |
+| Camp(Brain)    | 734   | 18927 | 6     | SMARTer    | [Camp et al. 2015](https://www.pnas.org/doi/abs/10.1073/pnas.1520760112) |
+| Camp(Liver)    | 777   | 19020 | 7     | SMARTer    | [Camp et al. 2017](https://www.nature.com/articles/nature22796) |
+| QS_Diaphragm   | 870   | 23341 | 5     | Smart-seq2 | [Schaum et al. 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6642641/) |
+| QS_Limb_Muscle | 1090  | 23341 | 6     | Smart-seq2 | [Schaum et al. 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6642641/) |
+| QS_Lung        | 1676  | 23341 | 11    | Smart-seq2 | [Schaum et al. 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6642641/) |
+| Muraro         | 2122  | 19046 | 9     | CEL-seq2   | [Muraro et al. 2016](https://www.cell.com/cell-systems/fulltext/S2405-4712(16)30292-7) |
+| Adam           | 3660  | 23797 | 8     | Drop-seq   | [Adam et al. 2017](https://journals.biologists.com/dev/article/144/19/3625/48196/Psychrophilic-proteases-dramatically-reduce-single) |
+| Qx_Limb_Muscle | 3909  | 23341 | 6     | 10x        | [Schaum et al. 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6642641/) |
+| QS_Heart       | 4365  | 23341 | 8     | Smart-seq  | [Schaum et al. 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6642641/) |
+| Young          | 5685  | 33658 | 11    | 10x        | [Young et al. 2018](https://www.science.org/doi/full/10.1126/science.aat1699) |
+| Plasschaert    | 6977  | 28205 | 8     | inDrop     | [Plasschaert et al. 2018](https://www.nature.com/articles/s41586-018-0394-6) |
+| Wang_Lung      | 9519  | 14561 | 2     | 10x        | [Wang et al. 2018](https://www.pnas.org/doi/abs/10.1073/pnas.1719474115) |
+| Qx_Trachea     | 11269 | 23341 | 5     | 10x        | [Schaum et al. 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6642641/) |
+| Tosches_turtle | 18664 | 23500 | 15    | Drop-seq   | [Tosches et al. 2018](https://www.science.org/doi/abs/10.1126/science.aar4237) |
+| Bach           | 23184 | 19965 | 8     | 10x        | [Bach et al. 2017](https://www.nature.com/articles/s41467-017-02001-5/briefing/signup/) |
 
